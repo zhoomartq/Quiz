@@ -40,6 +40,6 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('api/v1/docs/', schema_view.with_ui()),
     path('admin/', admin.site.urls),
-    path('api/', include('quiz_api.urls')),
+    path('', include('quiz_api.urls')),
 ]
 
