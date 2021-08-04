@@ -92,5 +92,3 @@ local_settings.py
 .env
 db.sqlite3
 venv
-Dockerfile
-docker-compose.yml
